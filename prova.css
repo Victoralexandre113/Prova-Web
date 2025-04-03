@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -6,8 +6,96 @@
 }
 
 
-header{
+header {
     background-color: black;
     color: white;
-    
+    display: flex;
+    justify-content: space-evenly;
+    gap: 75px;
+    align-items: center;
+    padding: 40px;
+
+
+}
+
+
+.div-01 ul {
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+}
+
+.div-01 ul li {
+    list-style: none;
+}
+
+.div-01 ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+.section-01 {
+    background-image: url(imagens/1330193-design-de-fendas-de-papel-em-angulo-preto-gratis-vetor.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px;
+
+
+}
+
+.section-01 h2 {
+    font-weight: bold;
+    color: white;
+    font-size: 45px;
+}
+
+.section-01 p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+
+.section-01 button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+.section-02 {
+    background-image: url(imagens/istock-1193608799-e1674743232935.jpg);
+    padding: 150px;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.paragrafo {
+    color: black;
+
+}
+
+.section-02 h2 {
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.section-02 p {
+
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.section-02 button {
+    padding: 10px;
+    background-color: transparent;
+    color: black;
+    border-radius: 5px;
 }
